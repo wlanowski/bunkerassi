@@ -33,8 +33,9 @@
 
 </head>
 
-<body class="login">
-<div style="margin: 2%">
+<body class="login" style="background-image: url('bg.jpg');background-repeat: no-repeat;
+    background-attachment: fixed;">
+<div style="margin: 2%;">
     <!-- Smart Wizard -->
     <div id="wizard" class="form_wizard wizard_horizontal">
         <ul class="wizard_steps">
@@ -43,7 +44,7 @@
                     <span class="step_no">1</span>
                     <span class="step_descr">
                     Schritt 1<br/>
-                    <small>Spezies</small>
+                    <small>Einführung</small>
                     </span>
                 </a>
             </li>
@@ -53,16 +54,17 @@
                     <span class="step_no">2</span>
                     <span class="step_descr">
                     Schritt 2<br/>
-                    <small>Klasse</small>
+                    <small>Spezies</small>
                     </span>
                 </a>
             </li>
+
             <li>
                 <a href="#step-3">
                     <span class="step_no">3</span>
                     <span class="step_descr">
                     Schritt 3<br/>
-                    <small>Werte</small>
+                    <small>Klasse</small>
                     </span>
                 </a>
             </li>
@@ -71,7 +73,7 @@
                     <span class="step_no">4</span>
                     <span class="step_descr">
                     Schritt 4<br/>
-                    <small>Boni</small>
+                    <small>Werte</small>
                     </span>
                 </a>
             </li>
@@ -80,14 +82,114 @@
                     <span class="step_no">5</span>
                     <span class="step_descr">
                     Schritt 5<br/>
+                    <small>Boni</small>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#step-6">
+                    <span class="step_no">6</span>
+                    <span class="step_descr">
+                    Schritt 6<br/>
                     <small>Abschluss</small>
                     </span>
                 </a>
             </li>
         </ul>
+
         <div id="step-1">
-            <h3>Spezies festlegen</h3>
+
             <div class="x_panel">
+                <div class="x_title">
+                    <h3>Einführung</h3>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                    Postapokalpyse.
+                    Verstrahltes Ödland.
+                    Verlorene Ruinenstädte.
+                    Verseuchte Meere und Flüsse.
+                    Die Welt und die Zivilisation sind am
+                    Ende.
+                    <br/>
+                    <br/>
+                    Wasser und Benzin sind kostbar geworden.
+                    Technik ist selten und wird
+                    kaum noch verstanden.
+                    Mutation ist allgegenwärtig.
+                    Edle Techritter in Powerrüstung, verfolgte
+                    Mutanten, todbringende Assassinen,
+                    verstrahlte Menschenfresser,
+                    skrupellose Banditen, machthungrige
+                    Warlords, verlorene Junkies, durchgeknallte
+                    Roboter, religiöse Fanatiker,
+                    toughe Tankgirls, brutale Sklavenjäger,
+                    enthusiastische Siedler und
+                    wahnsinnige Wissenschaftler sind die
+                    Bewohner dieser Welt.
+                    <br/>
+                    <br/>
+                    Und mittendrin, zwischen Mutanten
+                    und Flüchtlingen, sind die Charaktere
+                    Ihrer Spieler, die vielleicht wieder
+                    Ordnung ins Chaos bringen wollen
+                    oder ebenfalls auf der Suche nach
+                    Macht, Geld, Sex, Tech und Wissen
+                    sind.
+                    <br/>
+                    <br/>
+
+                </div>
+                <div class="x_title">
+                    <h2>Hinweise</h2>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                    Schön, dass du dich für mein PNP interessierst. Hier findest du einen kleinen Assistenten, der dich
+                    dabei unterstützen soll, einen Charakter für das Bunkerland zu erstellen. Der Assistent gibt dir nur
+                    Information über die Spezies, Klassen und Basiswerte.
+                    <br/>
+                    <br/>
+                    Talente, Name, Ausssehen und Geschichte musst du dir noch selbst ausdenken. Die Talenteliste liegt am
+                    Spielabend aus.
+                    <br/>
+                    <br/>
+                    Das hier ist kein Muss, ich unterstütze dich auch sehr gerne bei der Erstellung deines Charakters am
+                    Abend. Die genauen Regeln werde ich ebenfalls noch erklären.
+                    <br/>
+                    <br/>
+                    Bei Fragen komm auf mich zu!
+                    <br/>
+                    <br/>
+                    <div style="font-family: 'Comic Sans MS'; font-size: large;">gez. John</div>
+                </div>
+
+            </div>
+            <div class="x_panel">
+                <div class="x_title">
+                    <h2>Quellen und Lizenzen</h2>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                    <ul>
+                        <li>Gammaslayers: <a href="http://www.gammaslayers.de/regeln-co.html?file=files/media/Regelwerk/Gammaslayers.pdf">Regelwerk</a> veröffentlicht unter <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/de/">CC-BY-NC-SA 3.0</a></li>
+                        <li>Software: <a href="https://github.com/puikinsh/gentelella">Gentella</a> veröffentlicht unter <a href="https://github.com/puikinsh/gentelella/blob/master/LICENSE.txt">MIT</a> </li>
+                        <li>Hintergrund</li>
+                    </ul>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div id="step-2">
+
+            <div class="x_panel">
+                <div class="x_title">
+                    <h3>Spezies festlegen</h3>
+                    <div class="clearfix"></div>
+                </div>
                 <div class="x_content">
                     <form>
                         <p>
@@ -267,9 +369,13 @@
                 </div>
             </div>
         </div>
-        <div id="step-2">
-            <h3>Klasse wählen</h3>
+        <div id="step-3">
+
             <div class="x_panel">
+                <div class="x_title">
+                    <h3>Klasse wählen</h3>
+                    <div class="clearfix"></div>
+                </div>
                 <div class="x_content">
                     In Gammaslayers wird eine von vier
                     Basisklassen <b>(Nö! John sagt drei!)</b> gewählt.
@@ -300,14 +406,11 @@
                     <div class="clearfix"></div>
                 </div>
                 <div class="x_content">
-                    Menschen sind die Reste der Spezies, die die Welt vor dem Untergang bevölkerte. Einige leben in
-                    tiefen Bunkeranlagen, manche in den aus
-                    Schrott zusammengezimmerten Enklaven
-                    des Ödlandes, wieder andere
-                    gehören paramilitärischen Gruppen
-                    und neoreligiösen Ordensbünden an.
-                    Menschen sind anpassungsfähig und
-                    flexibel. Sie eignen sich für jede Charakterklasse.
+                    Soldaten und Polizisten, Jäger,
+                    Gardisten, Panzerfahrer, aber
+                    auch Söldner, Kopfgeldjäger und
+                    Sklavenhändler sowie Powerritter
+                    fallen in diese Kategorie.
                     <br/><br/>
                     <b>Klassenbonus:</b> Stärke, Härte oder Bewegung<br/>
                 </div>
@@ -347,12 +450,15 @@
 
 
         </div>
-        <div id="step-3">
-            <h3>Werte verteilen</h3>
+        <div id="step-4">
+
             <div class="x_panel">
                 <div class="x_title">
+                    <h3>Werte verteilen</h3>
+                    <div class="clearfix"></div>
                     <h2>Attribute</h2>
                     <div class="clearfix"></div>
+
                 </div>
                 <div class="x_content">
                     Verteile
@@ -493,10 +599,12 @@
 
 
         </div>
-        <div id="step-4">
+        <div id="step-5">
             <h3>Boni aussuchen</h3>
             <div class="x_panel">
                 <div class="x_title">
+                    <h3>Boni aussuchen</h3>
+                    <div class="clearfix"></div>
                     <h2>Volksbonus</h2>
                     <div class="clearfix"></div>
                     (Bei Hulks, wird das nicht gewählte Element um 1, das Gewählte um 2 erhöht)
@@ -517,10 +625,13 @@
 
 
         </div>
-        <div id="step-5">
-            <h3>Deine Werte</h3>
+        <div id="step-6">
+
             <div class="x_panel">
-                <div class="x_title"><h2>Attribute</h2>
+                <div class="x_title">
+                    <h3>Deine Werte</h3>
+                    <div class="clearfix"></div>
+                    <h2>Attribute</h2>
                     <div class="clearfix"></div>
                 </div>
                 <div class="x_content">
@@ -747,6 +858,9 @@
                 </div>
                 <div class="x_content" id="id_status">
 
+                </div>
+                <div>
+                    <h4><a href="http://www.gammaslayers.de/regeln-co.html?file=files/media/Charakterbogen/GS-Charakterblatt%20V5.pdf">Hier gehts zum Charakterblatt!</a> (Liegen natürlich bereit...)</h4>
                 </div>
             </div>
 
@@ -1036,7 +1150,7 @@
         // Properties
         selected: 0,  // Selected Step, 0 = first step
         keyNavigation: false, // Enable/Disable key navigation(left and right keys are used if enabled)
-        enableAllSteps: true,  // Enable/Disable all steps on first load
+        enableAllSteps: false,  // Enable/Disable all steps on first load
         transitionEffect: 'fade', // Effect on navigation, none/fade/slide/slideleft
         contentURL: null, // specifying content url enables ajax content loading
         contentURLData: null, // override ajax query parameters
